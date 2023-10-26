@@ -1,18 +1,25 @@
 ---
 layout: page
-title: About
+title: About Hassan Alsheikh
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Born and rasied in the United Arab Emirates  to Syrian parents.
 
+# Technologies I use:
+
+### For this site:
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+[minima][minima-theme]
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### At Home & On The Go:
+
+- Apple MacBook Pro M1
+- Apple Mac Studio Ultra M1
+- iPad 2018
+
 
 
 [jekyll-organization]: https://github.com/jekyll
+[minima-theme]: https://jekyll.github.io/minima/
