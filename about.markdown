@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Hassan Alsheikh
+title: About
 permalink: /about/
 ---
 
