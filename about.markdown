@@ -19,6 +19,7 @@ You can find the source code for Minima at GitHub:
 - Apple Mac Studio Ultra M1
 - iPad 2018
 
+<a href="https://partner.pcloud.com/r/106051" title="pCloud Premium" target="_blank"><img src="https://partner.pcloud.com/media/banners/personal/personal015320100.png" alt="pCloud Premium"/></a>
 
 
 [jekyll-organization]: https://github.com/jekyll
