@@ -4,14 +4,10 @@ title:  "Salam!"
 date:   2023-10-25 10:42:14 +0400
 categories: site update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Since I'm learning Ruby and Python simultaneously in my programming journey, I've decided to share my learning discoveries on my website using a fast site generator that can utilize my Markdown notes (I use Obsidian for that). This will serve as a future reference to track my progress on days when I hit a wall and feel like I haven't achieved anything. We all go through such moments, and having a reference like this always helps boost morale.
 
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
+This file was initially created by Jekyll, and I've made some edits to get familiar with how it works.
+---
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
