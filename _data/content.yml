@@ -1,0 +1,143 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Hero [ hero-image ]
+hero:
+  image: "assets/img/profile2.png"
+  image_alt: "Hassan Alsheikh"
+  title: "<b>Hassan</b> Alsheikh"
+  before_title: "Salam, <b>my name is</b>"
+  after_title: "I am a <strong>Media Personality & a Public Speaker</strong>"
+  description: "Born & raised in the UAE . I have 25+ years of experience in speaking at & presenting all sort of events, also I know a thing of two about technology."
+  button1:
+    label: "My Services"
+    link: "#services-section"
+  button2:
+    label: "My Portfolio"
+    link: "#works-section"
+  bg_title: "Public Speaker"
+  info:
+    - num: "25 <strong>+</strong>"
+      value: "Years of <strong>Experience</strong>"
+
+    - num: "330"
+      value: "Completed <strong>Projects</strong>"
+
+### Services [ services ]
+services:
+  title: "What I Do"
+  subtitle: "my <b>Services</b>"
+  bg_title: "Services"
+
+  items:
+    - title: "Speaker"
+      subtitle: "Tomorrow Is A Better Day"
+      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
+      button_label: "Get In Touch"
+      button_link: "#contact-section"
+
+    - title: "Master of Ceremony (MC)"
+      subtitle: "Formal Events"
+      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
+      button_label: "Get In Touch"
+      button_link: "#contact-section"
+
+    - title: "Master of Ceremony (MC)"
+      subtitle: "Informal Events"
+      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
+      button_label: "Get In Touch"
+      button_link: "#contact-section"
+
+    - title: "Guest Appearance"
+      subtitle: "Social Media"
+      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
+      button_label: "Get In Touch"
+      button_link: "#contact-section"
+
+    - title: "Brand Collaboration"
+      subtitle: "Social Media"
+      text: "Music copying, writing, creating, transcription and composition services."
+      button_label: "Get In Touch"
+      button_link: "#contact-section"
+
+### Skills [ skills ]
+skills:
+  title: "Professional Skills"
+  subtitle: "my <b>Talent</b>"
+  bg_title: "Skills"
+
+  column1:
+    items:
+      - label: "Public Speaking" #0-10 progress in dots
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        value: "99" #0-100 progress in %
+
+      - label: "Master of Ceremony (MC)" #0-10 progress in dots
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        value: "99" #0-100 progress in %
+
+  column2:
+    items:
+      - label: "Content Development" #0-10 progress in dots
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        value: "99" #0-100 progress in %
+
+      - label: "Photography" #0-10 progress in dots
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        value: "75" #0-100 progress in %
+
+  column3:
+    items:
+      - label: "Radio & Podcast" #0-10 progress in dots
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        value: "99" #0-100 progress in %
+
+      - label: "Media Mentoring" #0-10 progress in dots
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        value: "99" #0-100 progress in %
+
+### Blog [ blog ]
+#items generates from dir /_posts/*
+blog:
+  title: "Blog"
+  subtitle: "my <b>Articles and Advice</b>"
+  bg_title: "Blog"
+  button:
+    label: "View Blog"
+    link: "blog/"
+
+
+### Contact [ contacts ]
+contacts:
+  title: "Contact"
+  subtitle: "Let’s <b>Talk Ideas</b>"
+  bg_title: "Contact Me"
+
+  list:
+    - label: "Remember"
+      icon: "far fa-user"
+      text: "Tomorrow Is A Better Day"
+
+    - label: "Address"
+      icon: "far fa-map"
+      text: "Abu Dhabi, United Arab Emirates"
+
+    - label: "Email"
+      icon: "far fa-envelope"
+      text: "info@hassanalsheikh.com"
+
+    - label: "Phone"
+      icon: "far fa-address-book"
+      text: "+971 55 188 4414"
+
+### Portfolio [ portfolio ]
+#items generates from dir /_works/*
+portfolio:
+  title: "Portfolio"
+  subtitle: "my <b>Cases</b>"
+  bg_title: "Portfolio"
+  button:
+    link: "works/"
+    label: "View More"
