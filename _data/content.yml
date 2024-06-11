@@ -10,7 +10,8 @@ hero:
   title: "<b>Hassan</b> Alsheikh"
   before_title: "Salam, <b>my name is</b>"
   after_title: "I am a <strong>Media Personality & a Public Speaker</strong>"
-  description: "Born & raised in the UAE . I have 25+ years of experience in speaking at & presenting all sort of events, also I know a thing of two about technology."
+  description: "Born & raised in the UAE . Over 25 years of experience captivating audiences at all types of events, coupled with a deep understanding of technology.
+"
   button1:
     label: "My Services"
     link: "#services-section"
