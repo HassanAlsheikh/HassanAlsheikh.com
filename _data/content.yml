@@ -9,7 +9,7 @@ hero:
   image_alt: "Hassan Alsheikh"
   title: "<b>Hassan</b> Alsheikh"
   before_title: "Salam, <b>my name is</b>"
-  after_title: "I am a <strong>Media Personality & a Public Speaker</strong>"
+  after_title: "<strong>Media Personality & a Public Speaker</strong>"
   description: "Born & raised in the UAE . Over 25 years of experience captivating audiences at all types of events, coupled with a deep understanding of technology.
 "
   button1:
@@ -35,31 +35,31 @@ services:
   items:
     - title: "Speaker"
       subtitle: "Tomorrow Is A Better Day"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
+      text: "Empowering through mindset mastery, leadership insights, and actionable life control strategies from my journey."
+      button_label: "Get In Touch"
+      button_link: "#contact-section"
+
+    - title: "Speaker"
+      subtitle: "Artificial Intelligence"
+      text: "Middle East thought leader, blending AI insights with practical tools for innovation and progress."
       button_label: "Get In Touch"
       button_link: "#contact-section"
 
     - title: "Master of Ceremony (MC)"
       subtitle: "Formal Events"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
-      button_label: "Get In Touch"
-      button_link: "#contact-section"
-
-    - title: "Master of Ceremony (MC)"
-      subtitle: "Informal Events"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
+      text: "Versatile (Bilingual MC - Arabic & English) event host; adept at galas, corporate gatherings, panel moderations, and award ceremonies, delivering elegance & engagement."
       button_label: "Get In Touch"
       button_link: "#contact-section"
 
     - title: "Guest Appearance"
-      subtitle: "Social Media"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
+      subtitle: "Interviews"
+      text: "Mindset maestro & AI visionary. Engage your listeners with transformative stories & tech trends. Perfect for your next podcast or show."
       button_label: "Get In Touch"
       button_link: "#contact-section"
 
     - title: "Brand Collaboration"
-      subtitle: "Social Media"
-      text: "Music copying, writing, creating, transcription and composition services."
+      subtitle: "Social Media Advertising"
+      text: "Amplify your brand with authentic reviews. Leverage my influence for real engagement. Let's collaborate for mutual growth."
       button_label: "Get In Touch"
       button_link: "#contact-section"
 
