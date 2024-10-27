@@ -16,20 +16,20 @@ main:
     url: "#services-section"
     parent: 0
 
-  # Skills
-  - title: "Skills"
-    url: "#skills-section"
-    parent: 0
+  # # Skills
+  # - title: "Skills"
+  #   url: "#skills-section"
+  #   parent: 0
 
-  # Works
-  - title: "Portfolio"
-    url: "#works-section"
-    parent: 0
+  # # Works
+  # - title: "Portfolio"
+  #   url: "#works-section"
+  #   parent: 0
 
-  # Resume
-  - title: "Resume"
-    url: "#resume-section"
-    parent: 0
+  # # Resume
+  # - title: "Resume"
+  #   url: "#resume-section"
+  #   parent: 0
 
   # # Testimonials
   # - title: "Testimonials"
@@ -41,10 +41,10 @@ main:
   #   url: "#pricing-section"
   #   parent: 0
 
-  # Blog
-  - title: "Blog"
-    url: "#blog-section"
-    parent: 0
+  # # Blog
+  # - title: "Blog"
+  #   url: "#blog-section"
+  #   parent: 0
 
   # Contact
   - title: "Contact"
