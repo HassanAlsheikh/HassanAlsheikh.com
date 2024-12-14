@@ -119,7 +119,7 @@ contacts:
   list:
     - label: "Remember"
       icon: "far fa-user"
-      text: "Tomorrow Is A Better Day"
+      text: "Make tomorrow a better day"
 
     - label: "Address"
       icon: "far fa-map"
