@@ -9,13 +9,13 @@ settings:
 ### Preloader
 preloader:
   logo:
-    image: "assets/img/logo2.png"
+    image: "assets/img/hassan-logo.png"
     alt: "Hassan Alsheikh"
 
 ### Header
 header:
   logo:
-    image: "assets/img/logo2.png"
+    image: "assets/img/hassan-logo.png"
     alt: "Hassan Alsheikh"
 
 ### Social
