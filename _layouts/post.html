@@ -13,13 +13,12 @@ layout: default
 {% assign blog_url = 'blog/' %}
 
 <!-- Section Started Heading -->
-<section class="section section-inner started-heading">
+<section class="section section-inner started-heading"{% if page.lang == 'ar' %} dir="rtl" lang="ar"{% endif %}>
 	<div class="container">
 
 		<!-- Heading -->
 		<div class="m-titles align-center">
 			<div class="m-category scrolla-element-anim-1 scroll-animate" data-animate="active">
-				<a href="blog.html">Branding</a>, <a href="blog.html">UI Design</a>
 				{% assign cat_size = page.category | size %}
 				{% if cat_size != 0 %}
 					{% for category in page.category %}
@@ -43,9 +42,9 @@ layout: default
 	</div>
 	<div class="image">
 		{% if page.full_image != nil %}
-		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url({{ page.full_image | relative_url }});"></div>
+		<div class="img scrolla-element-anim-1 scroll-animate" role="img" aria-label="{{ page.title }}" data-animate="active" style="background-image: url({{ page.full_image | relative_url }});"></div>
 		{% else %}
-		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url({{ page.image | relative_url }});"></div>
+		<div class="img scrolla-element-anim-1 scroll-animate" role="img" aria-label="{{ page.title }}" data-animate="active" style="background-image: url({{ page.image | relative_url }});"></div>
 		{% endif %}
 	</div>
 </div>
@@ -59,7 +58,7 @@ layout: default
 
 				<!-- content -->
 				<div class="description">
-					<div class="post-content scrolla-element-anim-1 scroll-animate" data-animate="active">
+					<div class="post-content scrolla-element-anim-1 scroll-animate" data-animate="active"{% if page.lang == 'ar' %} dir="rtl" lang="ar"{% endif %}>
 						{{ page.content }}
 
 						<!--

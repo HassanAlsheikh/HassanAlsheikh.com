@@ -29,10 +29,13 @@
 # in the templates via {{ site.myvariable }}.
 
 # basic settings
-title: "Hassan Alsheikh :. حسان الشيخ"
+title: "Hassan Alsheikh | حسان الشيخ"
 email: "info@hassanalsheikh.com"
-description: "Hassan Alsheik, Arabic & English Master of Ceremony (MC), Radio Jockey (RJ), Podcast & TV Host. Youtube & Social Media."
+description: "Hassan Alsheikh, Arabic & English Master of Ceremony (MC), Radio Jockey (RJ), Podcast & TV Host. Youtube & Social Media."
 author: "Hassan Alsheikh"
+image: "assets/img/profile2.png"
+twitter:
+  username: HassanAlsheikh
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hassanalsheikh.com" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
@@ -73,6 +76,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

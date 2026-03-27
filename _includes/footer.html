@@ -2,7 +2,7 @@
 {% assign social = site.data.settings['social'] %}
 
 <!-- Footer -->
-<div class="footer">
+<footer class="footer">
   <div class="footer__builder">
     <div class="container">
       <div class="row">
@@ -10,7 +10,7 @@
 
           <div class="social-links scrolla-element-anim-1 scroll-animate" data-animate="active">
             {% for link in social %}
-            <a target="_blank" rel="nofollow" href="{{ link.url }}" title="{{ link.title }}">
+            <a target="_blank" rel="nofollow noopener" href="{{ link.url }}" title="{{ link.title }}" aria-label="{{ link.title }}">
               <i aria-hidden="true" class="{{ link.icon }}"></i>
             </a>
             {% endfor %}
@@ -35,4 +35,4 @@
       </div>
     </div>
   </div>
-</div>
+</footer>

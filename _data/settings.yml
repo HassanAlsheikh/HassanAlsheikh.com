@@ -17,6 +17,8 @@ header:
   logo:
     image: "assets/img/hassan-logo.png"
     alt: "Hassan Alsheikh"
+    width: "228"
+    height: "128"
 
 ### Social
 social:

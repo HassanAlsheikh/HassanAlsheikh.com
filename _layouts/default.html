@@ -7,6 +7,8 @@
 
   <body class="{% if page.layout == 'builder' %} home{% endif %}{% if page.layout == 'blog' or page.layout == 'archive' %} blog{% endif %}{% if page.layout == 'post' or page.layout == 'works-single' or page.layout == 'page' or page.layout == 'error' %} page{% endif %}{% if settings.skin == 'light' %} light-skin{% endif %}{% if settings.skin == 'dark' %} dark-skin{% endif %}">
 
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
     <div class="container-page ">
 
       {%- include preloader.html -%}
@@ -14,9 +16,9 @@
       {%- include header.html -%}
 
       <!-- Wrapper -->
-  		<div class="wrapper{% if page.layout == 'works-single' or page.layout == 'page' %} portfolio-template{% endif %}{% if page.layout == 'post' %} single-post{% endif %}">
+  		<main id="main-content" class="wrapper{% if page.layout == 'works-single' or page.layout == 'page' %} portfolio-template{% endif %}{% if page.layout == 'post' %} single-post{% endif %}">
         {{ content }}
-      </div>
+      </main>
 
       {%- include footer.html -%}
 

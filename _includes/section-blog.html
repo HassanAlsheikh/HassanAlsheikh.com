@@ -37,9 +37,9 @@
               <div class="category lui-subtitle">
                 <span>{{ post.date | date: site.date_format }}</span>
               </div>
-              <h5 class="lui-title">
+              <h3 class="lui-title">
                 <a href="{{ post.url }}">{{ post.title }}</a>
-              </h5>
+              </h3>
               <div class="lui-text">
                 <p>{{ post.content | markdownify | strip_html | truncate: 160 }}</p>
                 <div class="readmore">

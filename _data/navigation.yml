@@ -43,7 +43,7 @@ main:
 
   # Blog
   - title: "Blog"
-    url: "#blog-section"
+    url: "blog/"
     parent: 0
 
   # Contact
