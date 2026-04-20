@@ -1,0 +1,10 @@
+# Preflight per-project config for HassanAlsheikh.com (Jekyll/Ruby).
+# Jekyll is Ruby; preflight is JS-stack. There is no overlap.
+# Local verification is out-of-band:
+#   bundle exec jekyll build
+#   bundle exec jekyll serve
+# If/when preflight grows Ruby job support, flip skip back to false
+# and add [jobs] entries.
+
+[project]
+skip = true
